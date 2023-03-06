@@ -10,8 +10,9 @@ namespace PerguntaValores
             double r = float.Parse(args[1]);
 
             double V = Math.PI * (r * r) * a;
+            double S = (2 * Math.PI) * (r * (r + a));
             Console.WriteLine($"Volume = {V}");
-            
+            Console.WriteLine($"Surface = {S}");
         }
     }
 }

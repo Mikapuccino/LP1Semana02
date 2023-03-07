@@ -73,11 +73,14 @@ namespace Specials
             Console.WriteLine($"Negative infinity value = {NegInf}");
             Console.WriteLine($"Invalid number value = {NaN}");
 
-
-            Console.WriteLine($"(short) {shMax + 1}");
-
             intMax = intMax + 1;
             Console.WriteLine($"Max value of int + 1 = {intMax}");
+
+            fMax = fMax * 2;
+            dbMax = dbMax + 1;
+
+            Console.WriteLine($"Max value of float * 2 = {fMax}");
+            Console.WriteLine($"Max value of double + 1 = {dbMax}");
         }
     }
 }

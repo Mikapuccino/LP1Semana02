@@ -64,7 +64,14 @@ namespace Specials
             char chMax = char.MaxValue;
             char chMin = char.MinValue;
             Console.WriteLine($"Char max value = {chMax}");
-            Console.WriteLine($"Char min value = {chMin}");
+            Console.WriteLine($"Char min value = {chMin}\n");
+
+            double PosInf = double.PositiveInfinity;
+            double NegInf = double.NegativeInfinity;
+            float NaN = float.NaN;
+            Console.WriteLine($"Positive infinity value = {PosInf}");
+            Console.WriteLine($"Negative infinity value = {NegInf}");
+            Console.WriteLine($"Invalid number value = {NaN}");
         }
     }
 }

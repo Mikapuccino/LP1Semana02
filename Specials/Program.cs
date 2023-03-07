@@ -81,6 +81,11 @@ namespace Specials
 
             Console.WriteLine($"Max value of float * 2 = {fMax}");
             Console.WriteLine($"Max value of double + 1 = {dbMax}");
+
+            float f1, f2;
+            f1 = f2 = 10000.0f;
+            bool Compare = (f1 == f2 + 0.0001f);
+            Console.WriteLine($"Is {f1} equal to {f2} + 0.0001f? {Compare}");
         }
     }
 }

@@ -72,6 +72,12 @@ namespace Specials
             Console.WriteLine($"Positive infinity value = {PosInf}");
             Console.WriteLine($"Negative infinity value = {NegInf}");
             Console.WriteLine($"Invalid number value = {NaN}");
+
+
+            Console.WriteLine($"(short) {shMax + 1}");
+
+            intMax = intMax + 1;
+            Console.WriteLine($"Max value of int + 1 = {intMax}");
         }
     }
 }

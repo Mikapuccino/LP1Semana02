@@ -44,6 +44,29 @@ namespace CrossSquare
                         finalLine += "#";
                     }
 
+                    // If the square is big enough, draws X in the appropriate
+                    // spaces in the lines
+                    else if (size >= 4)
+                    {
+                        // Adds the X from left to right
+                        if (character == height + 1)
+                        {
+                            finalLine += "X";
+                        }
+
+                        // Adds the X from right to left
+                        else if (character == size - height)
+                        {
+                            finalLine += "X";
+                        }
+
+                        // In between the # and X there is always empty space
+                        else
+                        {
+                            finalLine += " ";
+                        }
+                    }
+                    
                     // In between the # there is always empty space
                     else
                     {
@@ -51,10 +74,14 @@ namespace CrossSquare
                     }
                 }
 
+                // Writes the line properly
                 Console.WriteLine(finalLine);
+
+                // Resets line before writing the next one
                 finalLine = "";
             }
 
+            // Same as first cycle
             for (int line = 1; line <= size; line++)
             {
                 // Adds character to end of string

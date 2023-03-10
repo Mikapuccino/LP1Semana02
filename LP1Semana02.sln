@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakConti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{4CB138B8-DC6D-40CF-ACA9-12D8D2C2BB2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossSquare", "CrossSquare\CrossSquare.csproj", "{6D14210D-0096-4D80-9A3C-0873B1140AD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{4CB138B8-DC6D-40CF-ACA9-12D8D2C2BB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB138B8-DC6D-40CF-ACA9-12D8D2C2BB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB138B8-DC6D-40CF-ACA9-12D8D2C2BB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D14210D-0096-4D80-9A3C-0873B1140AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D14210D-0096-4D80-9A3C-0873B1140AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D14210D-0096-4D80-9A3C-0873B1140AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D14210D-0096-4D80-9A3C-0873B1140AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
